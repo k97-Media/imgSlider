@@ -1,0 +1,48 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-image: url("./images/pic-2.jpg");
+	width:100%;
+	height: 100%;
+  backdrop-filter: blur(5px);
+}
+
+.slider-box{
+	width: 100%;
+	height: 100%;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	margin: 2em auto;
+}
+
+.btns-box{
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+button{
+	font-size: 5em;
+	background-color: transparent;
+	border: none;
+	padding: .2em;
+	color: snow;
+	text-shadow: 4px 4px 8px black;
+}
+
+button:hover{
+	font-weight: bolder;
+	cursor: pointer;
+	color: #778899;
+}
+
+#img{
+	width: 65%;
+}
